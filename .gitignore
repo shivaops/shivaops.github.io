@@ -1,0 +1,5 @@
+site/
+*.tmp
+~
+docs/assets/files/~
+docs/assets/files/*.tmp
