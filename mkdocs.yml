@@ -2,8 +2,8 @@ site_name: ShivaOps Project Portfolio
 site_description: Portfolio documentation for Smart Trip, DevOps Lab, and Oracle Gen-AI Forms
 site_author: ShivaOps
 site_url: https://shivaops.github.io/
-repo_name: shivaops
-repo_url: https://github.com/shivaops
+repo_name: shivaops.github.io
+repo_url: https://github.com/shivaops/shivaops.github.io
 edit_uri: ""
 
 theme:
