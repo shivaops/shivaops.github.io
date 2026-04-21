@@ -1,68 +1,22 @@
 # ShivaOps Project Portfolio
 
-This repository contains the source for my **account-level GitHub Pages site**:
+This repository contains the source for my GitHub Pages portfolio website.
 
-**Live site:** `https://shivaops.github.io/`
+## Live Site
+**Portfolio:** [https://shivaops.github.io/](https://shivaops.github.io/)
 
-Built with **MkDocs** and **Material for MkDocs**, this portfolio brings together my main showcase areas:
+## Main Showcase Areas
+- **Smart Trip** – AI-Assisted Airline Booking Simulator
+- **ShivaOps DevOps Lab** – CI/CD, Docker and Kubernetes Practice Platform
+- **GRPF** – Runtime Oracle Report Parameter Form Builder with AI-Assisted Design
 
-- **Smart Trip** — AI-Assisted Airline Booking Simulator
-- **DevOps Lab** — CI/CD, Docker and Kubernetes Practice Platform
-- **GRPF** — Runtime Oracle Report Parameter Form Builder with AI-Assisted Design
+## About This Portfolio
+This portfolio highlights my hands-on work across AI-assisted application design, DevOps practice, and Oracle runtime innovation. It brings together practical showcase projects built through structured problem-solving, architecture thinking, and guided use of AI tools.
 
-## What this repository contains
+## Professional Background
+I am an Oracle developer with over 20 years of experience in enterprise application development, primarily working with Oracle PL/SQL, Forms, and Reports. My background includes building and supporting in-house business systems with strong focus on practical workflows, system logic, and real-world problem solving.
 
-This is the **source repository** for the website.
+In recent years, I have been expanding into AI-assisted application development, DevOps tools, and modern web technologies through hands-on project building. This portfolio reflects that journey in a practical and structured way.
 
-Main folders and files:
-
-- `docs/` — markdown pages, images, files and site content
-- `mkdocs.yml` — site navigation and theme configuration
-- `requirements.txt` — Python packages used for local preview and deployment
-
-## Run locally
-
-```bash
-pip install -r requirements.txt
-mkdocs serve
-```
-
-Then open:
-
-```text
-http://127.0.0.1:8000
-```
-
-## Build the site
-
-```bash
-mkdocs build
-```
-
-## Deploy to GitHub Pages
-
-This site is published from the **`gh-pages`** branch using:
-
-```bash
-mkdocs gh-deploy
-```
-
-Typical update flow:
-
-```bash
-git add .
-git commit -m "Update portfolio site"
-git push
-mkdocs gh-deploy
-```
-
-## Repository and live site
-
-- **Repository:** `https://github.com/shivaops/shivaops.github.io`
-- **Live site:** `https://shivaops.github.io/`
-
-## Notes
-
-- Edit content in the source files under `docs/`
-- Do not manually edit generated files in the `gh-pages` branch
-- Preview locally before deploying changes
+## Repository Note
+This repository stores the source content, MkDocs configuration, and supporting assets used to publish the portfolio site.
