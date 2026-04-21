@@ -1,0 +1,103 @@
+site_name: ShivaOps Project Portfolio
+site_description: Portfolio documentation for Smart Trip, DevOps Lab, and Oracle Gen-AI Forms
+site_author: ShivaOps
+site_url: https://shivaops.github.io/
+repo_name: shivaops
+repo_url: https://github.com/shivaops
+edit_uri: ""
+
+theme:
+  name: material
+  logo: assets/logo-mark.svg
+  favicon: assets/logo-mark.svg
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: black
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/custom.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/shivaops
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/
+
+nav:
+  - Home:
+      - index.md
+  - Agentic AI:
+      - Smart Trip – AI-Assisted Airline Booking Simulator: smart-trip/full-document.md
+      - Project Overview: smart-trip/overview.md
+      - Does AI Replace Developers?: smart-trip/why-developers-at-risk.md
+      - Objective & Scope: smart-trip/objective-scope.md
+      - Solution & Architecture: smart-trip/architecture.md
+      - Functional Modules: smart-trip/modules.md
+      - End-to-End Flow: smart-trip/flow.md
+      - AI Flow Summary: smart-trip/ai-flow.md
+      - Design Principles: smart-trip/design-principles.md
+      - Strengths & Limitations: smart-trip/strengths-limitations.md
+      - Future Enhancements: smart-trip/future.md
+      - Conclusion: smart-trip/conclusion.md
+  - DevOps Lab:
+      - DevOps Lab – CI/CD, Docker and Kubernetes Practice Platform: devops-lab/full-document.md
+      - Overview: devops-lab/overview.md
+      - Lab Infrastructure: devops-lab/infrastructure.md
+      - Deployment Highlights: devops-lab/deployment-highlights.md
+      - Key Technologies: devops-lab/technologies.md
+      - Conclusion: devops-lab/conclusion.md
+  - Oracle Gen-AI Forms:
+      - GRPF – Runtime Oracle Report Parameter Form Builder with AI-Assisted Design: grpf/full-document.md
+      - Overview: grpf/overview.md
+      - Core Components: grpf/components.md
+      - Key Features: grpf/features.md
+      - How It Works: grpf/how-it-works.md
+      - Benefits & Business Impact: grpf/benefits-impact.md
+      - Conclusion: grpf/conclusion.md
+  - About Me:
+      - Profile: about.md
+      - Download Resume: assets/files/shiva-naik-cv.pdf
