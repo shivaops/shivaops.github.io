@@ -20,3 +20,6 @@ In recent years, I have been expanding into AI-assisted application development,
 
 ## Repository Note
 This repository stores the source content, MkDocs configuration, and supporting assets used to publish the portfolio site.
+
+## Source Availability
+Project-specific public source packages are being prepared and will be published soon in a cleaned and structured form.
