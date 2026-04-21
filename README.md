@@ -1,72 +1,68 @@
-# **ShivaOps Project Portfolio Site**
+# ShivaOps Project Portfolio
 
-Welcome to the **ShivaOps Project Portfolio Site**.
+This repository contains the source for my **account-level GitHub Pages site**:
 
-This site brings together my key hands-on projects across **AI-assisted application design**, **DevOps practice**, and **Oracle runtime innovation**. It presents practical work built through structured problem-solving, architecture thinking, and guided use of AI tools.
+**Live site:** `https://shivaops.github.io/`
 
-The main showcase areas include **Smart Trip**, an AI-assisted airline booking simulator; **ShivaOps DevOps Lab**, a practice platform for CI/CD, Docker, and Kubernetes; and **GRPF**, a runtime Oracle report parameter form builder with AI-assisted design.
+Built with **MkDocs** and **Material for MkDocs**, this portfolio brings together my main showcase areas:
 
-Each project reflects my approach to learning and building: combining strong enterprise development experience with modern tools, practical experimentation, and real workflow understanding.
+- **Smart Trip** — AI-Assisted Airline Booking Simulator
+- **DevOps Lab** — CI/CD, Docker and Kubernetes Practice Platform
+- **GRPF** — Runtime Oracle Report Parameter Form Builder with AI-Assisted Design
 
-<div class="grid cards" markdown>
+## What this repository contains
 
--   :material-airplane:
+This is the **source repository** for the website.
 
-    **Smart Trip**
-    
-    *AI-Assisted Airline Booking Simulator*
+Main folders and files:
 
-    ---
+- `docs/` — markdown pages, images, files and site content
+- `mkdocs.yml` — site navigation and theme configuration
+- `requirements.txt` — Python packages used for local preview and deployment
 
-    AI-assisted airline booking simulator with search, fare selection, traveler handling, booking, payment, and itinerary generation.
+## Run locally
 
-    [Open Agentic AI project](smart-trip/full-document.md)
+```bash
+pip install -r requirements.txt
+mkdocs serve
+```
 
--   :material-server:
+Then open:
 
-    **DevOps Lab**
-    
-    *CI/CD, Docker and Kubernetes Practice Platform*
+```text
+http://127.0.0.1:8000
+```
 
-    ---
+## Build the site
 
-    Practical local DevOps platform covering CI/CD, Docker, Kubernetes, automation, storage, networking, and Git-based workflow practice.
+```bash
+mkdocs build
+```
 
-    [Open DevOps Lab project](devops-lab/full-document.md)
+## Deploy to GitHub Pages
 
--   :material-file-cog-outline:
+This site is published from the **`gh-pages`** branch using:
 
-    **GRPF**
-    
-    *Runtime Oracle Report Parameter Form Builder with AI-Assisted Design*
+```bash
+mkdocs gh-deploy
+```
 
-    ---
+Typical update flow:
 
-    Runtime Oracle report parameter form builder with AI-assisted design, controlled publishing, and no separate `.fmb` development for each form.
+```bash
+git add .
+git commit -m "Update portfolio site"
+git push
+mkdocs gh-deploy
+```
 
-    [Open Oracle Gen-AI Forms project](grpf/full-document.md)
+## Repository and live site
 
-</div>
+- **Repository:** `https://github.com/shivaops/shivaops.github.io`
+- **Live site:** `https://shivaops.github.io/`
 
-## Why this site exists
+## Notes
 
-This site is designed as a **single portfolio entry point** for technical reviewers, hiring teams, demo audiences, and collaborators who want a structured view of my work.
-
-It combines:
-
-- project overview pages
-- full technical documents
-- architecture summaries
-- flow explanations
-- presentation-style content for interviews and demos
-
-## Project areas
-
-### Agentic AI
-Focuses on **Smart Trip**, an AI-assisted airline booking simulator that combines a structured booking engine with a thin conversational AI layer.
-
-### DevOps Lab
-Focuses on a **fully automated local lab** for Kubernetes, CI/CD, storage, networking, and deployment practice.
-
-### Oracle Gen-AI Forms
-Focuses on **GRPF**, a runtime-driven Oracle Forms solution that enables rapid parameter form creation and controlled publishing.
+- Edit content in the source files under `docs/`
+- Do not manually edit generated files in the `gh-pages` branch
+- Preview locally before deploying changes
