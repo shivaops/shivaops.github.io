@@ -8,7 +8,7 @@ The main showcase areas include **Smart Trip**, an AI-assisted airline booking s
 
 Each project reflects my approach to learning and building: combining strong enterprise development experience with modern tools, practical experimentation, and real workflow understanding.
 
-Public source packages and video walkthroughs are currently being prepared in a clean and structured format and will be released soon.
+**Public source packages and video walkthroughs are currently being prepared in a clean and structured format and will be released soon.**
 
 <div class="grid cards" markdown>
 
