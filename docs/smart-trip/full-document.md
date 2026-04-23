@@ -5,18 +5,21 @@
 </p>
 
 ## 1. Overview
-Smart Trip is an AI-assisted travel booking application that simulates a realistic airline booking journey from flight search to booking, payment, and itinerary generation.
+**Smart Trip** is an AI-assisted airline booking simulator that models a realistic end-to-end journey from flight search to booking, payment, and itinerary generation.
 
 The solution combines two modes of interaction:
+
 - **Structured booking flow** through normal application screens
 - **AI-assisted conversation flow** through a chat interface
 
-The main idea is simple: the booking engine remains controlled and rule-based, while the AI layer helps the user provide travel details in natural language and then routes the request into the normal application flow.
+The booking engine remains controlled and rule-based, while the AI layer helps users provide travel details in natural language and routes those requests into the normal application flow.
 
+For the broader project intent, design philosophy, and the key idea behind how AI was used in this application, refer to the **Project Overview** section.
 ---
 
 ## 2. Objective
 The goal of Smart Trip is to demonstrate a full working travel booking simulator that:
+
 - feels like a real airline or travel portal
 - supports search, booking, payment, and itinerary flow
 - uses simulated API-based provider interaction
@@ -25,6 +28,7 @@ The goal of Smart Trip is to demonstrate a full working travel booking simulator
 ---
 
 ## 3. Scope
+
 ### Included
 - One-way and round-trip search
 - Fare selection
@@ -48,6 +52,7 @@ Smart Trip has two main layers.
 
 ### 4.1 Core Booking Engine
 Handles the structured business process:
+
 - flight search
 - result display
 - fare selection
@@ -58,6 +63,7 @@ Handles the structured business process:
 
 ### 4.2 AI Assistant Layer
 Helps the user by:
+
 - capturing travel intent in plain language
 - identifying missing details
 - confirming unclear dates
@@ -80,6 +86,7 @@ The application is built using the following main parts:
 ---
 
 ## 6. Main Functional Modules
+
 ### Flight Search
 Captures route, travel date, cabin, currency, and passenger details, then fetches matching flights.
 
@@ -150,6 +157,7 @@ Smart Trip is based on these key principles:
 
 ## 10. Strengths
 Smart Trip demonstrates:
+
 - complete travel booking life cycle
 - realistic application flow
 - AI-assisted conversation with controlled routing
@@ -160,6 +168,7 @@ Smart Trip demonstrates:
 
 ## 11. Current Limitations
 Current limitations include:
+
 - simulated provider APIs only
 - simulated payment flow only
 - limited business scope compared to enterprise travel systems
@@ -169,6 +178,7 @@ Current limitations include:
 
 ## 12. Future Enhancement Options
 Possible improvements:
+
 - real airline API integration
 - real payment integration
 - hotel and car booking modules
