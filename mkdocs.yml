@@ -68,8 +68,7 @@ extra:
       link: https://youtube.com/
 
 nav:
-  - Home:
-      - index.md
+  - Home: index.md
   - Agentic AI:
       - Smart Trip – AI-Assisted Airline Booking Simulator: smart-trip/full-document.md
       - Project Overview: smart-trip/overview.md
