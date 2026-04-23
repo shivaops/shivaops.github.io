@@ -15,6 +15,7 @@ The solution combines two modes of interaction:
 The booking engine remains controlled and rule-based, while the AI layer helps users provide travel details in natural language and routes those requests into the normal application flow.
 
 For the broader project intent, design philosophy, and the key idea behind how AI was used in this application, refer to the **Project Overview** section.
+
 ---
 
 ## 2. Objective
