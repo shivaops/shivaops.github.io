@@ -27,7 +27,7 @@ It multiplies the power of developers who understand logic, systems, business pr
 
 ## How Smart Trip evolved
 The project originally started with the goal of building a more AI-driven flow using LangGraph and gradually evolved into a hybrid system that combines natural-language handling with a structured booking engine. That journey required repeated correction, rollback, and stabilization, which reinforced the importance of developer control.
-This can be proven by looking at the AI-generated code yourself. Since I am not from a Python or web development background, except for code review, I controlled the end-to-end workflow design, business rules, validation, audit logging, state management, integration, testing, error handling, policy control, and operational workarounds. This proves that programming knowledge is still essential.
+This can be proven by looking at the AI-generated code yourself. Since I am not from a Python or web development background, except for expert level code review, I controlled the end-to-end workflow design, business rules, validation, audit logging, state management, integration, testing, error handling, policy control, and operational workarounds. This proves that programming knowledge is still essential.
 
 ## Final takeaway
 Smart Trip is not only a project outcome. It is also practical proof that AI becomes most effective when combined with real programming judgment, structured design, and continuous technical growth.

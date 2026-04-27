@@ -1,5 +1,5 @@
 # GRPF – Runtime Oracle Report Parameter Form Builder with AI-Assisted Design
-## AI-Powered Runtime Oracle Forms Builder
+## AI-Powered + Runtime Oracle Forms Builder
 
 ## Overview
 Generative Report Parameter Form AI is an advanced runtime solution built using Oracle Forms Builder 12c. It enables developers to design, configure, and deploy Oracle report parameter screens without developing separate `.fmb` files.
@@ -7,6 +7,8 @@ Generative Report Parameter Form AI is an advanced runtime solution built using 
 This solution delivers a true **AI-powered Runtime Oracle Forms Builder** experience, allowing report parameter forms to be created and updated visually, directly in a live runtime environment, with **zero coding effort** rather than low-code customization.
 
 It can reduce delivery time from days to minutes and save up to **95% of development effort**.
+
+**Public source packages and video walkthroughs are currently being prepared in a clean and structured format and will be released soon**.
 
 ## Ideal Use Cases
 - Creating new report parameter forms with a standardized and consistent UI

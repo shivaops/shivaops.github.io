@@ -6,6 +6,8 @@ Welcome to the **ShivaOps DevOps Lab**, a fully automated local DevOps environme
 
 This project turns a Windows laptop into a complete hands-on DevOps lab, allowing users to practice real deployment workflows locally without depending on cloud infrastructure.
 
+**Public source packages and video walkthroughs are currently being prepared in a clean and structured format and will be released soon**.
+
 ## Purpose
 This lab simulates a realistic deployment environment and is well suited for:
 
