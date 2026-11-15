@@ -57,3 +57,4 @@
 .portfolio-tags span {background:#eaf2ff;color:#174c8c;font-size:13px;font-weight:750;padding:7px 11px;border-radius:8px}
 .portfolio-resume {font-size:15px;margin-top:29px}
 @media(max-width:760px) {.portfolio-hero,.portfolio-about-hero{padding:36px 23px;margin-bottom:30px}.portfolio-grid,.portfolio-about-grid{grid-template-columns:1fr}.portfolio-thumb{height:210px}.portfolio-card-body p{min-height:0}.md-content__inner{padding:0 8px}.portfolio-footer-promo{padding:22px}.portfolio-hero>p,.portfolio-about-hero>p{font-size:16px}}
+@media (max-width: 76.234375em) { .md-sidebar--primary { display: block; } }
