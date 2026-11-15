@@ -1,74 +1,46 @@
-# **ShivaOps Project Portfolio Site**
+<section class="portfolio-hero">
+  <div class="portfolio-eyebrow">SOFTWARE DEVELOPMENT · DEVOPS · AI</div>
+  <h1>Real Projects.<br><span>Practical Learning.</span></h1>
+  <p>Welcome to ShivaOps AI — a showcase of hands-on projects where enterprise software experience meets modern engineering, automation, and AI-assisted development.</p>
+  <div class="portfolio-actions">
+    <a class="portfolio-button primary" href="#featured-projects">Explore projects ↓</a>
+    <a class="portfolio-button secondary" href="https://www.youtube.com/@ShivaOps-AI" target="_blank" rel="noopener noreferrer">ShivaOps YouTube ↗</a>
+  </div>
+</section>
 
-Welcome to the **ShivaOps Project Portfolio Site**.
+<section class="portfolio-projects" id="featured-projects">
+  <div class="portfolio-eyebrow">MY WORK</div>
+  <h2>Featured Projects</h2>
+  <p class="portfolio-lead">A quick introduction to each project. Watch the videos for the complete walkthroughs and demonstrations.</p>
+  <div class="portfolio-grid">
+    <a class="portfolio-card" href="https://www.youtube.com/playlist?list=PLYkaOC9kXnifZLmJb9NehgmZYqmCEaiQ6" target="_blank" rel="noopener noreferrer" aria-label="Watch Smart Trip project video series on YouTube">
+      <div class="portfolio-thumb trip">
+        <img src="assets/images/smarttrip-logo.png" alt="Smart Trip project artwork" loading="lazy">
+      </div>
+      <div class="portfolio-card-body">
+        <h3>Smart Trip</h3>
+        <p>An AI-assisted airline booking simulator covering flight search, traveler details, booking, simulated payments, and itineraries.</p>
+        <span class="portfolio-watch">Watch the video series <span aria-hidden="true">↗</span></span>
+      </div>
+    </a>
+    <a class="portfolio-card" href="https://www.youtube.com/@ShivaOps-AI/videos" target="_blank" rel="noopener noreferrer" aria-label="Open ShivaOps YouTube videos for the DevOps Lab">
+      <div class="portfolio-thumb lab">
+        <img src="assets/images/devops-lab-logo.png" alt="ShivaOps DevOps Lab project artwork" loading="lazy">
+      </div>
+      <div class="portfolio-card-body">
+        <h3>ShivaOps DevOps Lab</h3>
+        <p>A reproducible seven-VM Ubuntu environment built with Vagrant and VirtualBox, featuring Jenkins, Docker, Ansible, Kubernetes, NFS, Ingress, and MetalLB.</p>
+        <span class="portfolio-watch">Explore DevOps videos <span aria-hidden="true">↗</span></span>
+      </div>
+    </a>
+  </div>
+  <p class="portfolio-source">DevOps Lab source code: <a href="https://github.com/shivaops/devops-lab" target="_blank" rel="noopener noreferrer">View GitHub repository ↗</a></p>
+</section>
 
-This site brings together my key hands-on projects across **AI-assisted application design**, **DevOps practice**, and **Oracle runtime innovation**. It presents practical work built through structured problem-solving, architecture thinking, and guided use of AI tools.
-
-The main showcase areas include **Smart Trip**, an AI-assisted airline booking simulator; **ShivaOps DevOps Lab**, a practice platform for CI/CD, Docker, and Kubernetes; and **GRPF**, a runtime Oracle report parameter form builder with AI-assisted design.
-
-Each project reflects my approach to learning and building: combining strong enterprise development experience with modern tools, practical experimentation, and real workflow understanding.
-
-**Public source packages and video walkthroughs are currently being prepared in a clean and structured format and will be released soon.**
-
-<div class="grid cards" markdown>
-
--   :material-airplane:
-
-    **Smart Trip**
-    
-    *AI-Assisted Airline Booking Simulator*
-
-    ---
-
-    AI-assisted airline booking simulator with search, fare selection, traveler handling, booking, payment, and itinerary generation.
-
-    [Open Agentic AI project](smart-trip/full-document.md)
-
--   :material-server:
-
-    **DevOps Lab**
-    
-    *CI/CD, Docker and Kubernetes Practice Platform*
-
-    ---
-
-    Practical local DevOps platform covering CI/CD, Docker, Kubernetes, automation, storage, networking, and Git-based workflow practice.
-
-    [Open DevOps Lab project](devops-lab/full-document.md)
-
--   :material-file-cog-outline:
-
-    **GRPF**
-    
-    *Runtime Oracle Report Parameter Form Builder with AI-Assisted Design*
-
-    ---
-
-    Runtime Oracle report parameter form builder with AI-assisted design, controlled publishing, and no separate `.fmb` development for each form.
-
-    [Open Oracle Gen-AI Forms project](grpf/full-document.md)
-
-</div>
-
-## Why this site exists
-
-This site is designed as a **single portfolio entry point** for technical reviewers, hiring teams, demo audiences, and collaborators who want a structured view of my work.
-
-It combines:
-
-- project overview pages
-- full technical documents
-- architecture summaries
-- flow explanations
-- presentation-style content for interviews and demos
-
-## Project areas
-
-### Agentic AI
-Focuses on **Smart Trip**, an AI-assisted airline booking simulator that combines a structured booking engine with a thin conversational AI layer.
-
-### DevOps Lab
-Focuses on a **fully automated local lab** for Kubernetes, CI/CD, storage, networking, and deployment practice.
-
-### Oracle Gen-AI Forms
-Focuses on **GRPF**, a runtime-driven Oracle Forms solution that enables rapid parameter form creation and controlled publishing.
+<section class="portfolio-footer-promo">
+  <div>
+    <h2>Watch the full demonstrations</h2>
+    <p>Project details, implementation steps, and practical lessons are covered on the ShivaOps AI YouTube channel.</p>
+  </div>
+  <a class="portfolio-button primary" href="https://www.youtube.com/@ShivaOps-AI" target="_blank" rel="noopener noreferrer">Visit the channel ↗</a>
+</section>

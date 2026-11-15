@@ -1,144 +1,21 @@
-# :material-account-circle: About Me
+<section class="portfolio-about-hero">
+  <div class="portfolio-eyebrow">ABOUT THE DEVELOPER</div>
+  <h1>Hi, I'm Shiva.</h1>
+  <p>I'm an Oracle enterprise application developer with more than 20 years of experience in SQL, PL/SQL, Forms, Reports, and business-critical systems. Today I'm extending that experience through DevOps, Python, cloud fundamentals, and AI-assisted software development.</p>
+  <div class="portfolio-actions">
+    <a class="portfolio-button primary" href="https://github.com/shivaops" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    <a class="portfolio-button secondary" href="https://www.linkedin.com/in/shivaops/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+    <a class="portfolio-button secondary" href="https://www.youtube.com/@ShivaOps-AI" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
+  </div>
+</section>
 
-## Shiva Naik  
-**Oracle Developer | PL/SQL, Forms & Reports | AI-Assisted Applications | DevOps Practice**
-
-I am an Oracle developer with more than 20 years of experience in enterprise application development, primarily working with Oracle PL/SQL, Oracle Forms, and Oracle Reports. My work has focused on building, enhancing, and supporting business-critical systems where accuracy, structured logic, and reliable day-to-day operations matter.
-
-My professional foundation comes from Oracle-based in-house ERP and MES environments, especially in manufacturing and business process systems. Over the years, I have worked across database design, backend development, application enhancement, integration, deployment, and production support.
-
-Alongside this strong Oracle background, I am actively expanding into AI-assisted application development, Python-based solutions, and DevOps tooling through hands-on portfolio projects. My current direction is to combine traditional enterprise development strengths with modern engineering practices in a practical and realistic way.
-
-One of my key interests is exploring how AI can accelerate development while still requiring programming judgment, business understanding, validation, and architecture thinking. Projects such as **Smart Trip**, **ShivaOps DevOps Lab**, and **GRPF** reflect that approach.
-
----
-
-## :material-card-account-details-outline: Professional Snapshot
-
-- **20+ years** in Oracle enterprise application development  
-- Strong expertise in **Oracle PL/SQL, Forms, and Reports**  
-- Deep experience in **ERP, MES, manufacturing, and business-critical systems**  
-- Active hands-on work in **AI-assisted applications, Python, FastAPI, DevOps, and cloud fundamentals**  
-- Strong interest in modernizing enterprise workflows through **practical, structured, AI-guided solution design**
-
----
-
-## :material-star-four-points-circle-outline: Core Expertise
-
-### :material-database: Oracle Development
-- Oracle SQL
-- Oracle PL/SQL
-- Oracle Forms
-- Oracle Reports
-- Oracle Database 18c / 11g / 10g
-
-### :material-office-building-cog-outline: Enterprise Application Delivery
-- Requirement analysis
-- Solution design
-- Development and enhancement
-- Business logic implementation
-- System integration
-- Testing and deployment
-- Production support and troubleshooting
-
-### :material-robot-outline: AI-Assisted and Modern Development
-- AI-assisted application design
-- Agentic AI concepts
-- LangGraph
-- FastAPI
-- Python
-- HTML
-- JavaScript
-- Workflow-oriented system thinking
-
-### :material-cog-refresh-outline: DevOps Practice
-- Git
-- Jenkins
-- Ansible
-- Docker
-- Kubernetes
-- Terraform
-- Vagrant
-- Oracle VirtualBox
-
-### :material-cloud-outline: Cloud Fundamentals
-- OCI
-- AWS
-- Azure
-
----
-
-## :material-certificate-outline: Certifications
-
-- **OCI AI Foundations Associate**  
-- **OCI Data Science Professional**
-
----
-
-## :material-briefcase-outline: Experience
-
-### Gulf Aluminium Rolling Mill (GARMCO)  
-**Senior Oracle Developer**  
-**Manama, Bahrain | Sep 2014 – Present**
-
-### Haji Husein Alireza & Co. Ltd.  
-**Senior Oracle Developer**  
-**Jeddah, Saudi Arabia | Mar 2012 – Aug 2014**
-
-### Wipro Technologies Pvt. Ltd.  
-**Oracle PL/SQL Developer**  
-**Hyderabad, India | Jun 2011 – Aug 2011**
-
-### Accenture Services Pvt. Ltd.  
-**Oracle Developer**  
-**Bangalore & Mumbai, India | Oct 2005 – Apr 2011**
-
-### Octopus-e Systems Pvt. Ltd.  
-**Oracle Developer**  
-**Mumbai, India | Jun 2004 – Oct 2005**
-
----
-
-## :material-school-outline: Education
-
-- **Bachelor of Science in Information Technology**  
-  Sikkim Manipal University, India
-
-- **Master of Business Administration in Supply Chain Management**  
-  United Business Institute, Brussels
-
-- **Diploma in Software Engineering**  
-  Aptech Institute, India
-
----
-
-## :material-bullseye-arrow: Current Focus
-
-I am currently focused on building and showcasing practical work in:
-
-- AI-assisted applications  
-- Workflow-driven solution design  
-- DevOps lab automation  
-- Python and FastAPI-based prototypes  
-- Modernizing traditional enterprise application thinking with practical hands-on experimentation
-
----
-
-## :material-email-outline: Contact
-
-- **Current Location:** Bahrain  
-- **Current Mobile:** +973 3805 3730  
-- **Home Country:** India  
-- **Home Mobile:** +91 98202 34089  
-- **Email:** shivanaik.it@gmail.com  
-- **GitHub:** github.com/shivaops  
-- **Portfolio:** https://shivaops.github.io/  
-
----
-
-## :material-file-download-outline: Resume
-
-For a detailed professional profile, full experience history, and complete qualifications:
-<a href="../assets/files/shiva-naik-cv.pdf" download class="md-button md-button--primary">
-  Download My Resume (PDF)
-</a>
+<section class="portfolio-about-section">
+  <h2>What I work on</h2>
+  <div class="portfolio-about-grid">
+    <div class="portfolio-about-panel"><h3>Enterprise Development</h3><p>Oracle databases, PL/SQL, Forms and Reports, ERP/MES workflows, integration, and troubleshooting.</p></div>
+    <div class="portfolio-about-panel"><h3>Modern Engineering</h3><p>DevOps automation, Kubernetes, Docker, Jenkins, Python, cloud learning, and AI-assisted applications.</p></div>
+  </div>
+  <h2>My approach</h2>
+  <p class="portfolio-about-copy">I learn by building real examples, validating how systems work, and sharing practical demonstrations. I see AI as a useful development assistant — with architecture, business understanding, testing, and human judgment still essential.</p>
+  <div class="portfolio-tags"><span>Oracle PL/SQL</span><span>Oracle Forms</span><span>Python</span><span>AI-assisted development</span><span>Jenkins</span><span>Docker</span><span>Kubernetes</span><span>Ansible</span><span>Vagrant</span></div>
+</section>
